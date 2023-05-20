@@ -100,3 +100,47 @@ align-items: center;
   padding: 9.6rem 0;
   background-color: #d0ebff;
 }
+
+
+/* HOW  */
+.section-how{
+  padding: 4.8rem 0 3.2rem 0;
+}
+.how-text{
+  display: inline-block;
+  margin: 1.6rem 0;
+  font-size: 1.8rem;
+}
+.how-img {
+  width:50rem;
+  height: 30rem;
+  border-radius: 8px 10px 12px 14px;
+}
+
+.how-img-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.how-img-box::before,
+.how-img-box::after {
+  content: "";
+  display: block;
+  border-radius: 8px 10px 12px 14px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+.how-img-box::before {
+  width: 50rem;
+  padding-bottom: 70%;
+  background-color: #d0ebff;
+}
+.how-img-box::after {
+  width: 50rem;
+  padding-bottom: 65%;
+  background-color: #bac8ff;
+}

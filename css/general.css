@@ -53,6 +53,45 @@ body {
   font-weight: 400;
   color: #555;
 }
+table {
+  width: 100%;
+  margin-top: 5rem;
+  font-size: 1.8rem;
+  border-collapse: collapse;
+}
+tbody {
+  display: table-row-group;
+  vertical-align: middle;
+}
+
+tr {
+  display: table-row;
+  vertical-align: top;
+  border-color: inherit;
+}
+
+td,
+th {
+  /* border:1px solid black; */
+  text-align: left;
+  padding: 16px 24px;
+}
+tbody tr td {
+  line-height: 1.2;
+  border-bottom: 1px solid #333;
+  padding: 1.2rem;
+}
+.grid {
+  display: grid;
+  row-gap: 9.6rem;
+  column-gap: 6.4rem;
+}
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+.margin-top-med {
+  margin-top: 9.6rem;
+}
 .container {
   max-width: 120rem;
   padding: 0 3.2rem;
@@ -71,7 +110,7 @@ body {
   margin-bottom: 3.2rem;
   color: #4263eb;
 }
-.heading-secondary{
+.heading-secondary {
   font-size: 4.4rem;
   line-height: 1.2;
   margin-bottom: 9.6rem;
@@ -90,6 +129,7 @@ body {
   display: block;
   text-transform: uppercase;
   margin-bottom: 1.6rem;
+
   letter-spacing: 0.5px;
   text-align: center;
 }
@@ -108,15 +148,12 @@ body {
   transition: all 0.3s;
 }
 .btn--full:link,
-.btn--full:visited{
+.btn--full:visited {
   background-color: #4263eb;
   color: #fff;
-
 }
 .btn--full:hover,
-.btn--full:active{
+.btn--full:active {
   background-color: #364fc7;
   color: #fff;
-
 }
-
