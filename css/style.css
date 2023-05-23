@@ -135,12 +135,12 @@ align-items: center;
   z-index: -1;
 }
 .how-img-box::before {
-  width: 50rem;
+  width: 55rem;
   padding-bottom: 70%;
   background-color: #d0ebff;
 }
 .how-img-box::after {
-  width: 50rem;
+  width: 53rem;
   padding-bottom: 65%;
   background-color: #bac8ff;
 }
