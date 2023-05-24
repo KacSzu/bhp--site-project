@@ -20,11 +20,12 @@ SPACING SYSTEM (px)
 Primary:#4263eb
 
 Tint:
-
+#d0ebff
 
 
 Shades:
 #3b5bdb
+#364fc7
 Accents:
 Greys: 
 #444444
@@ -88,6 +89,9 @@ tbody tr td {
 }
 .grid--2-cols {
   grid-template-columns: repeat(2, 1fr);
+}
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
 }
 .margin-top-med {
   margin-top: 9.6rem;

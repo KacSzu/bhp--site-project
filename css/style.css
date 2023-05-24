@@ -144,3 +144,27 @@ align-items: center;
   padding-bottom: 65%;
   background-color: #bac8ff;
 }
+
+/* footer */
+.footer{
+  margin-top: 9.6rem;
+  padding: 9.6rem 0 9.6rem 0;
+  border-top: 1px solid #eee;
+}
+.footer-column{
+  list-style: none;
+  font-size:1.6rem;
+  line-height: 1.6;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  text-decoration: none;
+  color: #555;
+}
+.footer-link:hover,
+.footer-link:active {
+  text-decoration: none;
+  color: #333;
+  transition: all 0.3s;
+}
