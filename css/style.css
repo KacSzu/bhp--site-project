@@ -112,9 +112,8 @@ align-items: center;
   font-size: 1.8rem;
 }
 .how-img {
-  width:50rem;
-  height: 30rem;
-  border-radius: 8px 10px 12px 14px;
+  width:50%;
+  border-radius: 50%;
 }
 
 .how-img-box {
@@ -127,7 +126,7 @@ align-items: center;
 .how-img-box::after {
   content: "";
   display: block;
-  border-radius: 8px 10px 12px 14px;
+  border-radius: 50%;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -135,13 +134,13 @@ align-items: center;
   z-index: -1;
 }
 .how-img-box::before {
-  width: 55rem;
+  width: 70%;
   padding-bottom: 70%;
   background-color: #d0ebff;
 }
 .how-img-box::after {
-  width: 53rem;
-  padding-bottom: 65%;
+  width: 60%;
+  padding-bottom: 60%;
   background-color: #bac8ff;
 }
 /* SECTION FEATURES */
