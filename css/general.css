@@ -47,12 +47,14 @@ Greys:
 }
 html {
   font-size: 62.5%;
+  overflow-x:hidden ;
 }
 body {
   font-family: "Noto Sans", sans-serif;
   line-height: 1;
   font-weight: 400;
   color: #555;
+  overflow-x:hidden ;
 }
 table {
   width: 100%;
@@ -96,6 +98,9 @@ tbody tr td {
 
 .grid--4-cols {
   grid-template-columns: repeat(4, 1fr);
+}
+.grid-footer{
+  grid-template-columns: repeat(4,1fr);
 }
 .margin-top-med {
   margin-top: 9.6rem;
