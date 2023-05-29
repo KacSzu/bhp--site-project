@@ -1,3 +1,4 @@
+"use strict";
 // MAKING MOBILE NAV WORK
 const btnMobileNavEl = document.querySelector(`.btn-mobile-nav`);
 const headerEl = document.querySelector(`.header`);
@@ -36,3 +37,22 @@ allLinks.forEach(function (link) {
     }
   });
 });
+
+// Making sticky nav
+const sectionHeroEl = document.querySelector(`.section-hero`);
+const observer = new IntersectionObserver(
+  function (entries) {
+    const [entry] = entries;
+    console.log(entry);
+    if (!entry.isIntersecting) {
+      document.body.classList.add(`sticky`);
+    } else {
+      document.body.classList.remove(`sticky`);
+    }
+  },
+  {
+    root: null,
+    threshold: 0,
+  }
+);
+observer.observe(sectionHeroEl);
